@@ -1,0 +1,21 @@
+{
+  "name": "CV",
+  "homepage": "https://github.com/Geslain/CV",
+  "authors": [
+    "gdahan <gdahan@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.3.0"
+  }
+}
