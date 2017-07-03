@@ -17,6 +17,37 @@
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
+
+/* Competences */
+
+.img-competence {
+    width:150px;
+    height:150px;
+}
+
+.bloc-competence {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-comptence {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.text-competence {
+    color: rgba(0,0,0,.54);
+    font-size: 1rem;
+    line-height: 18px;
+    overflow: hidden;
+    width: 90%;
+}
+
 .demo-avatar {
     width: 100px;
     height: 100px;
