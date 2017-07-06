@@ -18,6 +18,10 @@ html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
+.no-padding {
+    padding: 0;
+}
+
 /* Competences */
 
 .img-competence {
@@ -34,6 +38,15 @@ html, body {
     align-items: center;
 }
 
+.title-competence {
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+}
+
 .list-comptence {
     list-style: none;
     margin: 0;
@@ -46,6 +59,43 @@ html, body {
     line-height: 18px;
     overflow: hidden;
     width: 90%;
+}
+
+/* Experience */
+
+.experience-card-sqli {
+    background: url("images/logo SQLI.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.experience-mission {
+    margin-bottom: 10px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.roche-logo{
+    width: 100px;
+    height: 60px;
+    align-self: center;
+}
+
+.gbc-logo{
+    width: 100px;
+    height: 20px;
+    align-self: center;
+}
+
+.adecco-logo {
+    width: 100px;
+    height: 50px;
+    align-self: center;
 }
 
 .demo-avatar {
@@ -137,7 +187,7 @@ html, body {
           align-items: center;
   color: rgba(255, 255, 255, 0.56);
   font-weight: 500;
-    padding: 16px 10px;
+    padding: 7px 10px;
     font-size: 14px;
 }
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
